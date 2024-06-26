@@ -1,0 +1,67 @@
+.sec3-home {
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sec3-home .sec3-img {
+  position: relative;
+}
+.sec3-home .sec3-img img {
+  width: 251px;
+  height: 251px;
+  object-fit: cover;
+}
+.sec3-home .dataSec3 a .sec3-holder {
+  position: absolute;
+  z-index: 5;
+  width: 251px;
+  height: 251px;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sec3-home .sec3-data1:hover .s1 {
+  opacity: 1;
+  visibility: inherit;
+  transition: all 0.3s ease-in-out;
+}
+.sec3-home .sec3-data2:hover .s2 {
+  opacity: 1;
+  visibility: inherit;
+  transition: all 0.3s ease-in-out;
+}
+.sec3-home .sec3-data3:hover .s3 {
+  opacity: 1;
+  visibility: inherit;
+  transition: all 0.3s ease-in-out;
+}
+.sec3-home .sec3-data4:hover .s4 {
+  opacity: 1;
+  visibility: inherit;
+  transition: all 0.3s ease-in-out;
+}
+.sec3-home .sec3-data5:hover .s5 {
+  opacity: 1;
+  visibility: inherit;
+  transition: all 0.3s ease-in-out;
+}
+.sec3-home .dataSec3 a .sec3-holder h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 800;
+  font-size: 23px;
+  color: white;
+}
+.sec3-home .dataSec3 a .sec3-holder h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  font-style: italic;
+}

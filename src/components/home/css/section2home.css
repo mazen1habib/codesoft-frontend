@@ -1,0 +1,29 @@
+.sec2-home {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  background-color: white;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sec2-home .data-sec2-home .imgback {
+  position: relative;
+}
+.sec2-home .data-sec2-home .imgfront {
+  position: absolute;
+  z-index: 3;
+}
+.sec2-home .data-sec2-home h2 {
+  font-family: "Oswald", sans-serif;
+  color: rgb(49, 48, 48);
+  font-weight: 500;
+  font-size: 25px;
+}
+.sec2-home .data-sec2-home P {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  color: rgb(73, 73, 73);
+}

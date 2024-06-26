@@ -1,0 +1,80 @@
+.container-sec6-home {
+  background-image: url(../../../asset/images/main-background-1.jpg);
+  /* background-position: 100% 171px; */
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px 0px;
+}
+.container-sec6-home .data-sec6-home1 {
+  overflow: hidden;
+  position: relative;
+}
+.container-sec6-home .data-sec6-home1 img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+.container-sec6-home .data-sec6-home1 h4 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  color: rgb(143, 142, 142);
+}
+.container-sec6-home .data-sec6-home1 h4 a {
+  text-decoration: none;
+  color: rgb(143, 142, 142);
+}
+.container-sec6-home .data-sec6-home1 h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: rgb(233, 233, 233);
+  line-height: 33px;
+}
+.container-sec6-home .data-sec6-home1 p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  color: white;
+  line-height: 25px;
+}
+.container-sec6-home .data-sec6-home1 button {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-sec6-home .data-sec6-home1 button::before {
+  margin-left: auto;
+}
+
+.container-sec6-home .data-sec6-home1 button::after,
+.container-sec6-home .data-sec6-home1 button::before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #d1cfce;
+  display: block;
+  transition: 0.5s;
+}
+
+.container-sec6-home .data-sec6-home1 button:hover::after,
+.container-sec6-home .data-sec6-home1 button:hover::before {
+  width: 100%;
+}

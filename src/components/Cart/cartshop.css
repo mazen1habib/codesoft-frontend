@@ -1,0 +1,12 @@
+.totalprice{
+    min-width: 300px;
+    height: 50px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30px;
+    gap: 20px;
+}
+.totalprice h3{
+    width: 150px;
+    height: 50px;
+}

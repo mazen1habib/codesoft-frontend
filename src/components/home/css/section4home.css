@@ -1,0 +1,147 @@
+/* Small very */
+@media (max-width: 767px) {
+  .consec6 {
+    width: 100%;
+  }
+  .consec6 .mySwiper2 {
+    width: 70%;
+  }
+  .consec6 .mySwiper2 .sec6slide p {
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .consec6 .mySwiper2 .sec6slide h1 {
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+  }
+}
+/* Small */
+@media (min-width: 768px) {
+  .consec6 {
+    width: 100%;
+  }
+  .consec6 .mySwiper2 {
+    width: 70%;
+  }
+  .consec6 .mySwiper2 .sec6slide p {
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .consec6 .mySwiper2 .sec6slide h1 {
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .consec6 {
+    width: 100%;
+  }
+  .consec6 .mySwiper2 {
+    width: 70%;
+  }
+  .consec6 .mySwiper2 .sec6slide p {
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 19px;
+  }
+  .consec6 .mySwiper2 .sec6slide h1 {
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .consec6 {
+    width: 100%;
+  }
+  .consec6 .mySwiper2 {
+    width: 70%;
+  }
+  .consec6 .mySwiper2 .sec6slide p {
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 19px;
+  }
+  .consec6 .mySwiper2 .sec6slide h1 {
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+  }
+}
+/* Large xl */
+@media (min-width: 1400px) {
+  .consec6 {
+    width: 100%;
+  }
+  .consec6 .mySwiper2 {
+    width: 70%;
+  }
+  .consec6 .mySwiper2 .sec6slide p {
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 19px;
+  }
+  .consec6 .mySwiper2 .sec6slide h1 {
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+  }
+}
+.consec6 {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.consec6 .mySwiper2 {
+  height: 70vh;
+}
+/* .consec6 .mySwiper2 .sec6slide p {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 19px;
+}
+.consec6 .mySwiper2 .sec6slide h1 {
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+} */
+.consec6 .mySwiper2 .sec6slide {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.conimge {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.condatasec6 h5 {
+  color: black !important;
+}

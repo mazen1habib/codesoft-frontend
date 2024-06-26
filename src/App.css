@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +37,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.scrollup {
+  position: fixed;
+  z-index: 77777777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 10px;
+  bottom: 20px;
+  transition: 1s;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
 }
